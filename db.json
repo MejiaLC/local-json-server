@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "camilo",
+      "age": 26,
+      "email": "kaiser130@hotmail.com"
+    },
+    {
+      "id": 2,
+      "name": "catalina",
+      "age": 23,
+      "email": "cata@hotmail.com"
+    },
+    {
+      "id": 3,
+      "name": "diana",
+      "age": 48,
+      "email": "didi@hotmail.com"
+    },
+    {
+      "id": 4,
+      "name": "fernando",
+      "age": 53,
+      "email": "leviatan@hotmail.com"
+    }
+  ]
+}

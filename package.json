@@ -1,0 +1,12 @@
+{
+  "name": "test-api-local",
+  "version": "1.0.0",
+  "description": "Testing fetching data from local server",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch db.json"
+  },
+  "author": "MejiaLC",
+  "license": "ISC"
+}
