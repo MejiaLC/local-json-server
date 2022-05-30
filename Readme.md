@@ -6,4 +6,4 @@ _if you want to run this project you will have to run the next commands_
 
 **Still under construction**
 
-MejiaLC :tw-1f603:
+MejiaLC

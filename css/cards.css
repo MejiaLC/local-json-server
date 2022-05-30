@@ -1,0 +1,15 @@
+#container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+#container p {
+  border: 1px solid #d3d3d3;
+  min-height: 250px;
+  text-align: center;
+  line-height: 250px;
+}
+/*# sourceMappingURL=cards.css.map */

@@ -1,3 +1,6 @@
+let btnNewData = document.getElementById("sendNewData");
+let containerCards = document.getElementById("container");
+
 document.addEventListener("DOMContentLoaded", () => {
   getApiData();
 });
@@ -7,11 +10,17 @@ const getApiData = async () => {
   let data = await response.json();
 
   console.log(data);
-  console.log("Este cambio fue hecho por la rama dev");
+
+  data.map((item) => {
+    containerCards.innerHTML += `
+        <p>${item.name}</p>
+    `;
+  });
+
+  /*   console.log("Este cambio fue hecho por la rama dev");
+  console.log("Jeje"); */
   return data;
 };
-
-let btnNewData = document.getElementById("sendNewData");
 
 const newDataUser = async (e) => {
   e.preventDefault();
