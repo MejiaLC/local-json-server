@@ -7,7 +7,7 @@ const getApiData = async () => {
   let data = await response.json();
 
   console.log(data);
-
+  console.log("Este cambio fue hecho por la rama dev");
   return data;
 };
 
