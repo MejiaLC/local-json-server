@@ -1,6 +1,6 @@
 ## Fetching data from local json-server
 
-_if you want to run this project you will have to run the next commands_
+_if you want to run this project you will have to run the next command
 
 ```bash
 npm run api-local
