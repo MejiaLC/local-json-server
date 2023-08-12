@@ -6,6 +6,4 @@ if you want to run this project you will have to run the next command
 npm run api-local
 ```
 
-**Still under construction**
-
 MejiaLC
